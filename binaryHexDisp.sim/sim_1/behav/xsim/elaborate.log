@@ -4,5 +4,5 @@ Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot sevenseg_decoder_tb_behav xil_defaultlib.sevenseg_decoder_tb -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
-ERROR: [VRFC 10-666] expression has 8 elements; expected 7 [C:/Users/C27Jonathan.Barnett/ece281/labs/ece281-lab2/src/sevenseg_decoder.vhd:44]
-ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit sevenseg_decoder_tb in library work failed.
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

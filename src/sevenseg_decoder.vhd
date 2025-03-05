@@ -74,6 +74,6 @@ o_seg_n <=  "1000000" when "0000",
             "0001110" when "1111",
             
             --turn display off when else
-            "11111111" when others;
+            "1111111" when others;
 
 end Behavioral;
